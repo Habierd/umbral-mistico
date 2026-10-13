@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umbral Místico | Centro de Ayuda Espiritual</title>
+  <meta name="description" content="Umbral Místico es un centro de ayuda espiritual especializado en tarot terapéutico, lectura mística y acompañamiento personal. Agenda por WhatsApp." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-moon">☾</div>
+      <p>Umbral Místico</p>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <canvas id="cosmos" aria-hidden="true"></canvas>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar-content">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon">☾</span>
+        Umbral Místico
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#precios">Precios</a>
+        <a href="#faq">Preguntas</a>
+        <a href="#contacto" class="btn-nav">Agendar</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-content reveal">
+        <p class="eyebrow">Centro de Ayuda Espiritual</p>
+
+        <h1>
+          Un espacio para <span class="gradient-text">escuchar tu alma</span>
+          y encontrar claridad
+        </h1>
+
+        <p class="hero-text">
+          Tarot terapéutico, lectura mística y acompañamiento espiritual para
+          comprender tu momento, sanar lo que te detiene y avanzar con confianza.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="https://wa.me/573042892100?text=Hola,%20quiero%20agendar%20una%20consulta%20espiritual" class="btn btn-primary" target="_blank" rel="noopener">
+            Agendar consulta
+          </a>
+          <a href="#servicios" class="btn btn-outline">Explorar servicios</a>
+        </div>
+
+        <div class="hero-badges">
+          <span>✦ Consultas privadas</span>
+          <span>✦ Tarot terapéutico</span>
+          <span>✦ Lectura mística</span>
+          <span>✦ Acompañamiento humano</span>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <p class="eyebrow reveal">Lo que puedo acompañar</p>
+        <h2 class="section-title reveal">Servicios espirituales</h2>
+        <p class="section-subtitle reveal">
+          Cada consulta es un espacio íntimo, respetuoso y centrado en ti.
+        </p>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">🔮</div>
+            <h3>Tarot terapéutico</h3>
+            <p>
+              Lectura orientada a comprender situaciones amorosas, familiares,
+              laborales y personales con claridad y respeto.
+            </p>
+            <ul class="card-list">
+              <li>Claridad sobre tu situación</li>
+              <li>Orientación práctica</li>
+              <li>Espacio para preguntas</li>
+            </ul>
+          </article>
+
+          <article class="card featured reveal">
+            <span class="featured-tag">Más solicitado</span>
+            <div class="card-icon">🌙</div>
+            <h3>Lectura mística</h3>
+            <p>
+              Acompañamiento para explorar tu energía, reconocer bloqueos y
+              conectar con las oportunidades frente a ti.
+            </p>
+            <ul class="card-list">
+              <li>Lectura personalizada</li>
+              <li>Enfoque energético</li>
+              <li>Orientación para tu camino</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">✨</div>
+            <h3>Consejería espiritual</h3>
+            <p>
+              Acompañamiento cercano para encontrar equilibrio, propósito y
+              tranquilidad interior en momentos de cambio.
+            </p>
+            <ul class="card-list">
+              <li>Escucha empática</li>
+              <li>Espacio confidencial</li>
+              <li>Herramientas para tu bienestar</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proceso" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow reveal">Cómo funciona</p>
+        <h2 class="section-title reveal">Tu consulta, paso a paso</h2>
+        <p class="section-subtitle reveal">
+          Un proceso sencillo, claro y diseñado para que te sientas acompañada desde el primer mensaje.
+        </p>
+
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step-number">01</span>
+            <h3>Escríbeme</h3>
+            <p>Envíame un mensaje por WhatsApp contándome brevemente qué acompañamiento buscas.</p>
+          </article>
+
+          <article class="step reveal">
+            <span class="step-number">02</span>
+            <h3>Coordinamos</h3>
+            <p>Elegimos la modalidad, duración y horario que mejor se adapte a ti.</p>
+          </article>
+
+          <article class="step reveal">
+            <span class="step-number">03</span>
+            <h3>Vivimos la consulta</h3>
+            <p>Recibes una lectura o acompañamiento privado, con espacio para preguntar.</p>
+          </article>
+
+          <article class="step reveal">
+            <span class="step-number">04</span>
+            <h3>Integramos</h3>
+            <p>Cerramos con orientación clara para tomar decisiones con más calma.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="precios" class="section">
+      <div class="container">
+        <p class="eyebrow reveal">Inversión</p>
+        <h2 class="section-title reveal">Elige tu acompañamiento</h2>
+        <p class="section-subtitle reveal">
+          Precios de referencia. Confirmamos disponibilidad y pago por WhatsApp.
+        </p>
+
+        <div class="pricing">
+          <article class="price-card reveal">
+            <h3>Tarot express</h3>
+            <div class="price"><span>$</span>40.000</div>
+            <p>Consulta breve para una pregunta concreta.</p>
+            <ul>
+              <li>20 minutos</li>
+              <li>Una situación específica</li>
+              <li>Virtual o presencial</li>
+            </ul>
+            <a href="https://wa.me/573042892100?text=Hola,%20quiero%20agendar%20un%20Tarot%20express" class="btn btn-outline" target="_blank" rel="noopener">Agendar</a>
+          </article>
+
+          <article class="price-card featured reveal">
+            <span class="featured-tag">Recomendado</span>
+            <h3>Lectura mística</h3>
+            <div class="price"><span>$</span>70.000</div>
+            <p>Experiencia más profunda y personalizada.</p>
+            <ul>
+              <li>45 minutos</li>
+              <li>Tarot y lectura energética</li>
+              <li>Espacio para preguntas</li>
+            </ul>
+            <a href="https://wa.me/573042892100?text=Hola,%20quiero%20agendar%20una%20Lectura%20m%C3%ADstica" class="btn btn-primary" target="_blank" rel="noopener">Agendar</a>
+          </article>
+
+          <article class="price-card reveal">
+            <h3>Acompañamiento</h3>
+            <div class="price"><span>$</span>120.000</div>
+            <p>Consejería espiritual para un proceso más completo.</p>
+            <ul>
+              <li>90 minutos</li>
+              <li>Consejería personalizada</li>
+              <li>Seguimiento posterior</li>
+            </ul>
+            <a href="https://wa.me/573042892100?text=Hola,%20quiero%20agendar%20un%20Acompa%C3%B1amiento%20espiritual" class="btn btn-outline" target="_blank" rel="noopener">Agendar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow reveal">Testimonios</p>
+        <h2 class="section-title reveal">Voces que encontraron claridad</h2>
+
+        <div class="cards">
+          <article class="card testimonial reveal">
+            <div class="quote">“</div>
+            <p>Me ayudó a ver mi situación con mucha más claridad. Salí tranquila y con una orientación muy bonita.</p>
+            <span>— Consultante</span>
+          </article>
+
+          <article class="card testimonial reveal">
+            <div class="quote">“</div>
+            <p>Un espacio respetuoso y cálido. La lectura fue clara, humana y muy conectada con mi momento.</p>
+            <span>— Consultante</span>
+          </article>
+
+          <article class="card testimonial reveal">
+            <div class="quote">“</div>
+            <p>Recomiendo mucho la consejería. Me sentí escuchada, acompañada y con herramientas para seguir.</p>
+            <span>— Consultante</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container faq-container">
+        <p class="eyebrow reveal">Preguntas frecuentes</p>
+        <h2 class="section-title reveal">Resolvamos tus dudas</h2>
+
+        <div class="faq reveal">
+          <button class="faq-question">
+            ¿Cómo agendo una consulta?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Escríbeme por WhatsApp. Allí coordinamos el servicio, la modalidad y el horario.</p>
+          </div>
+        </div>
+
+        <div class="faq reveal">
+          <button class="faq-question">
+            ¿Las consultas son virtuales o presenciales?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Ofrezco consultas virtuales y, según disponibilidad, también presenciales.</p>
+          </div>
+        </div>
+
+        <div class="faq reveal">
+          <button class="faq-question">
+            ¿La información que comparta es privada?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sí. Cada consulta se realiza en un espacio de respeto y confidencialidad.</p>
+          </div>
+        </div>
+
+        <div class="faq reveal">
+          <button class="faq-question">
+            ¿Necesito prepararme antes de la lectura?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>No. Solo llega con una actitud abierta y, si quieres, con una pregunta o situación por explorar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="container contact-content reveal">
+        <div class="contact-moon">☾</div>
+        <h2>Tu camino merece claridad</h2>
+        <p>Escríbeme por WhatsApp y agendemos tu tarot, lectura mística o acompañamiento espiritual.</p>
+
+        <a href="https://wa.me/573042892100?text=Hola,%20quiero%20agendar%20una%20consulta%20espiritual" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+          Escribir por WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/573042892100?text=Hola,%20quiero%20agendar%20una%20consulta%20espiritual" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.03c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.45-.72-2.92-1.15-4.75-4.15-4.9-4.34-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07 1-2.36.26-.29.58-.36.77-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.8 1.98.87 2.12.07.15.12.32.02.51-.1.19-.19.31-.39.53-.19.22-.31.34-.44.55-.14.22-.03.44.1.65.14.22.63 1.03 1.35 1.67.93.83 1.7 1.09 1.94 1.21.24.12.39.1.53-.06.15-.17.63-.73.8-.98.17-.24.34-.2.58-.12.24.09 1.52.72 1.78.85.26.13.44.19.5.29.07.11.07.63-.17 1.31z"/>
+    </svg>
+  </a>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-logo"><span>☾</span> Umbral Místico</p>
+      <p>Centro de Ayuda Espiritual</p>
+      <p class="footer-small">Tarot terapéutico · Lectura mística · Consejería espiritual</p>
+      <p class="footer-small">Este espacio ofrece acompañamiento espiritual y orientación personal.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>
